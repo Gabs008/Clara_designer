@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+}
+
+#card-container{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-right: 30px;
+    
+}
+.card{
+    width: 20rem;
+    height: 9rem;
+    margin-top: 2rem;
+    margin-left: 3rem;    
+}
+
+.card-body{
+    background-color: rgba(239, 239, 239, 0.737);
+}
+
+.card-img-top{
+    height: 12rem;
+}
+
+.titulo_card{
+    font-family: Britanny;
+    font-size: 1.5rem;
+
+
+    /* margin-left: 2rem; */
+}
+
+.descricao{
+    font-family: Courier_prime;
+    text-align: justify-all;
+}
+
+.valor{
+    font-family: Courier_prime;
+    font-weight: bold;
+    margin-bottom: 0%;
+}
+
+.a{
+    text-decoration: none;
+    font-family: Courier_prime;
+    color: black;
+
+}
+
+.a:hover{
+    color: darkgray;
+
+}
+
+.footer_div{
+    margin-top: 4%;
+    background-color: #363636af;
+}
+  
+  .footer2{
+    background-color: #0c0c0cd2;
+    color: white;
+}
+
+@font-face {
+    font-family: 'Britanny';
+    src: url('./font/brittany_signature/BrittanySignature.ttf')
+  }
+
+@font-face {
+    font-family: 'Courier_prime';
+    src: url('./font/Courier_Prime/CourierPrime-Regular.ttf')
+  }
+
+
+ 

@@ -1,0 +1,44 @@
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+  }
+
+.Titulo{
+  font-family: Britanny;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  font-size: 3rem;
+}
+
+.paragrafo{
+  font-family: Courier_prime ;
+}
+  
+.imagem {
+  border-radius: 10%;
+  height: auto;
+  object-fit: cover;
+
+}
+
+.footer_div{
+  margin-top: 4%;
+  background-color: #363636af;
+}
+
+.footer2{
+  background-color: #0c0c0cd2;
+  color: white;
+}
+
+  @font-face {
+    font-family: 'Britanny';
+    src: url('./font/brittany_signature/BrittanySignature.ttf')
+  }
+
+  @font-face {
+    font-family: 'Courier_prime';
+    src: url('./font/Courier_Prime/CourierPrime-Regular.ttf')
+  }

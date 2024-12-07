@@ -1,0 +1,46 @@
+.div_acima{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Britanny ;
+    font-size: xx-large;
+    background-color: rgb(0, 0, 0);
+    height: 17rem;
+    padding-top: 5rem ;
+    
+
+}
+
+.div_abaixo{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5rem; /* 0px de padding em cima e embaixo, 20px nas laterais */
+    align-items: center;
+    height: 19rem;
+}
+
+.icon{
+    margin-bottom: 2rem;
+}
+
+.div_email{
+    font-family: Courier_prime;
+    color: black;
+}
+
+.pergunta{
+    margin-top: 0%;
+
+}
+
+@font-face {
+    font-family: 'Britanny';
+    src: url('./font/brittany_signature/BrittanySignature.ttf')
+  }
+
+  @font-face {
+    font-family: 'Courier_prime';
+    src: url('./font/Courier_Prime/CourierPrime-Regular.ttf')
+  }
