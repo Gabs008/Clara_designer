@@ -24,7 +24,7 @@ const card_itens = [
     {
         titulo: 'Pedicure',
         imagem: './img/transferir (4).jpg',
-        descricao: 'Alongamento e modelagem com gel acrílico, curado por luz UV/LED, para unhas mais longas e resistentes.',
+        descricao: ' É um tratamento que inclui corte das unhas, remoção de cutículas, hidratação e massagem, deixando os pés renovados.',
         valor:'R$100,00'
     },
     
